@@ -1,0 +1,13 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets
+*.zip
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
