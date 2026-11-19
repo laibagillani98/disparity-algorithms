@@ -1,0 +1,511 @@
+scene,family,method,window,mae
+Adirondack,sad,Block,1,8.338338851928711
+Adirondack,sad,Block,3,6.692843437194824
+Adirondack,sad,Block,5,5.6910505294799805
+Adirondack,sad,Block,7,5.005893230438232
+Adirondack,sad,Block,9,4.521760940551758
+Adirondack,sad,Block,11,4.130743980407715
+Adirondack,sad,Block,15,3.6464686393737793
+Adirondack,ssd,Block,1,8.338338851928711
+Adirondack,ssd,Block,3,6.3922295570373535
+Adirondack,ssd,Block,5,5.217992782592773
+Adirondack,ssd,Block,7,4.47637414932251
+Adirondack,ssd,Block,9,3.984844446182251
+Adirondack,ssd,Block,11,3.594360113143921
+Adirondack,ssd,Block,15,3.3072550296783447
+Adirondack,census,Block,3,3.8662614822387695
+Adirondack,census,Block,5,2.1769144535064697
+Adirondack,census,Block,7,1.831072211265564
+Adirondack,sad,SGM raw,1,4.329866886138916
+Adirondack,sad,SGM post,1,3.4912798404693604
+Adirondack,sad,SGM raw,3,3.264130115509033
+Adirondack,sad,SGM post,3,2.956766128540039
+Adirondack,sad,SGM raw,5,2.9939064979553223
+Adirondack,sad,SGM post,5,2.743332624435425
+Adirondack,sad,SGM raw,7,2.8210620880126953
+Adirondack,sad,SGM post,7,2.6570024490356445
+Adirondack,sad,SGM raw,9,2.704383134841919
+Adirondack,sad,SGM post,9,2.515570640563965
+Adirondack,sad,SGM raw,11,2.6211225986480713
+Adirondack,sad,SGM post,11,2.451571226119995
+Adirondack,sad,SGM raw,15,2.5565967559814453
+Adirondack,sad,SGM post,15,2.352320671081543
+Adirondack,ssd,SGM raw,1,2.12062406539917
+Adirondack,ssd,SGM post,1,1.877150535583496
+Adirondack,ssd,SGM raw,3,2.114527940750122
+Adirondack,ssd,SGM post,3,1.9777157306671143
+Adirondack,ssd,SGM raw,5,2.140601873397827
+Adirondack,ssd,SGM post,5,2.0076589584350586
+Adirondack,ssd,SGM raw,7,2.160898208618164
+Adirondack,ssd,SGM post,7,2.033674955368042
+Adirondack,ssd,SGM raw,9,2.1728551387786865
+Adirondack,ssd,SGM post,9,2.049567937850952
+Adirondack,ssd,SGM raw,11,2.196260452270508
+Adirondack,ssd,SGM post,11,2.0695807933807373
+Adirondack,ssd,SGM raw,15,2.2702596187591553
+Adirondack,ssd,SGM post,15,2.1706430912017822
+Adirondack,census,SGM raw,3,3.5887608528137207
+Adirondack,census,SGM post,3,1.3547570705413818
+Adirondack,census,SGM raw,5,1.910041093826294
+Adirondack,census,SGM post,5,0.9205946922302246
+Adirondack,census,SGM raw,7,1.506406307220459
+Adirondack,census,SGM post,7,0.8372655510902405
+ArtL,sad,Block,1,7.642787933349609
+ArtL,sad,Block,3,6.352437973022461
+ArtL,sad,Block,5,5.798649311065674
+ArtL,sad,Block,7,5.420259952545166
+ArtL,sad,Block,9,5.094011306762695
+ArtL,sad,Block,11,4.784123420715332
+ArtL,sad,Block,15,4.340766429901123
+ArtL,ssd,Block,1,7.642787933349609
+ArtL,ssd,Block,3,6.166233539581299
+ArtL,ssd,Block,5,5.43544864654541
+ArtL,ssd,Block,7,4.9143476486206055
+ArtL,ssd,Block,9,4.557636737823486
+ArtL,ssd,Block,11,4.377735137939453
+ArtL,ssd,Block,15,4.096661567687988
+ArtL,census,Block,3,3.832764148712158
+ArtL,census,Block,5,3.2801647186279297
+ArtL,census,Block,7,3.261561393737793
+ArtL,sad,SGM raw,1,6.547918796539307
+ArtL,sad,SGM post,1,5.996610641479492
+ArtL,sad,SGM raw,3,5.588472843170166
+ArtL,sad,SGM post,3,5.022757530212402
+ArtL,sad,SGM raw,5,5.055683135986328
+ArtL,sad,SGM post,5,4.601520538330078
+ArtL,sad,SGM raw,7,4.672519683837891
+ArtL,sad,SGM post,7,4.127650260925293
+ArtL,sad,SGM raw,9,4.3685102462768555
+ArtL,sad,SGM post,9,3.8701579570770264
+ArtL,sad,SGM raw,11,4.14565896987915
+ArtL,sad,SGM post,11,3.699481725692749
+ArtL,sad,SGM raw,15,3.6874873638153076
+ArtL,sad,SGM post,15,3.438863515853882
+ArtL,ssd,SGM raw,1,4.007466793060303
+ArtL,ssd,SGM post,1,3.4991250038146973
+ArtL,ssd,SGM raw,3,3.6166751384735107
+ArtL,ssd,SGM post,3,3.231201171875
+ArtL,ssd,SGM raw,5,3.5423123836517334
+ArtL,ssd,SGM post,5,3.236416816711426
+ArtL,ssd,SGM raw,7,3.4545106887817383
+ArtL,ssd,SGM post,7,3.2304537296295166
+ArtL,ssd,SGM raw,9,3.4002463817596436
+ArtL,ssd,SGM post,9,3.2702598571777344
+ArtL,ssd,SGM raw,11,3.31577467918396
+ArtL,ssd,SGM post,11,3.217660665512085
+ArtL,ssd,SGM raw,15,3.136043071746826
+ArtL,ssd,SGM post,15,3.092787981033325
+ArtL,census,SGM raw,3,3.8072121143341064
+ArtL,census,SGM post,3,2.02775239944458
+ArtL,census,SGM raw,5,3.0141098499298096
+ArtL,census,SGM post,5,1.7505691051483154
+ArtL,census,SGM raw,7,2.7038991451263428
+ArtL,census,SGM post,7,1.6726723909378052
+Jadeplant,sad,Block,1,15.684609413146973
+Jadeplant,sad,Block,3,8.789467811584473
+Jadeplant,sad,Block,5,7.907660961151123
+Jadeplant,sad,Block,7,8.00836181640625
+Jadeplant,sad,Block,9,8.333979606628418
+Jadeplant,sad,Block,11,8.713966369628906
+Jadeplant,sad,Block,15,9.33046817779541
+Jadeplant,ssd,Block,1,15.684609413146973
+Jadeplant,ssd,Block,3,8.797112464904785
+Jadeplant,ssd,Block,5,8.445569038391113
+Jadeplant,ssd,Block,7,8.844757080078125
+Jadeplant,ssd,Block,9,9.436671257019043
+Jadeplant,ssd,Block,11,9.930057525634766
+Jadeplant,ssd,Block,15,10.52656078338623
+Jadeplant,census,Block,3,11.401991844177246
+Jadeplant,census,Block,5,9.10661792755127
+Jadeplant,census,Block,7,9.217489242553711
+Jadeplant,sad,SGM raw,1,6.734282970428467
+Jadeplant,sad,SGM post,1,5.258121013641357
+Jadeplant,sad,SGM raw,3,6.3263726234436035
+Jadeplant,sad,SGM post,3,5.332864761352539
+Jadeplant,sad,SGM raw,5,6.979039192199707
+Jadeplant,sad,SGM post,5,6.010185241699219
+Jadeplant,sad,SGM raw,7,7.577447414398193
+Jadeplant,sad,SGM post,7,6.626682758331299
+Jadeplant,sad,SGM raw,9,8.125551223754883
+Jadeplant,sad,SGM post,9,7.141993045806885
+Jadeplant,sad,SGM raw,11,8.592964172363281
+Jadeplant,sad,SGM post,11,7.614477634429932
+Jadeplant,sad,SGM raw,15,8.998592376708984
+Jadeplant,sad,SGM post,15,8.266408920288086
+Jadeplant,ssd,SGM raw,1,8.836220741271973
+Jadeplant,ssd,SGM post,1,7.484976291656494
+Jadeplant,ssd,SGM raw,3,9.298880577087402
+Jadeplant,ssd,SGM post,3,8.292293548583984
+Jadeplant,ssd,SGM raw,5,9.985983848571777
+Jadeplant,ssd,SGM post,5,9.200778007507324
+Jadeplant,ssd,SGM raw,7,10.438194274902344
+Jadeplant,ssd,SGM post,7,9.747454643249512
+Jadeplant,ssd,SGM raw,9,10.862783432006836
+Jadeplant,ssd,SGM post,9,10.040457725524902
+Jadeplant,ssd,SGM raw,11,11.104791641235352
+Jadeplant,ssd,SGM post,11,10.363462448120117
+Jadeplant,ssd,SGM raw,15,11.371459007263184
+Jadeplant,ssd,SGM post,15,10.856446266174316
+Jadeplant,census,SGM raw,3,11.485180854797363
+Jadeplant,census,SGM post,3,7.246094226837158
+Jadeplant,census,SGM raw,5,8.662949562072754
+Jadeplant,census,SGM post,5,6.11842155456543
+Jadeplant,census,SGM raw,7,8.09084701538086
+Jadeplant,census,SGM post,7,5.980053901672363
+Motorcycle,sad,Block,1,6.904804229736328
+Motorcycle,sad,Block,3,3.1218206882476807
+Motorcycle,sad,Block,5,2.4551618099212646
+Motorcycle,sad,Block,7,2.167487859725952
+Motorcycle,sad,Block,9,2.0130910873413086
+Motorcycle,sad,Block,11,1.9085766077041626
+Motorcycle,sad,Block,15,1.8854472637176514
+Motorcycle,ssd,Block,1,6.904804229736328
+Motorcycle,ssd,Block,3,3.0106964111328125
+Motorcycle,ssd,Block,5,2.345797538757324
+Motorcycle,ssd,Block,7,2.0597665309906006
+Motorcycle,ssd,Block,9,1.931723713874817
+Motorcycle,ssd,Block,11,1.8967567682266235
+Motorcycle,ssd,Block,15,1.9500987529754639
+Motorcycle,census,Block,3,3.183042526245117
+Motorcycle,census,Block,5,2.0148239135742188
+Motorcycle,census,Block,7,1.820589542388916
+Motorcycle,sad,SGM raw,1,2.115170955657959
+Motorcycle,sad,SGM post,1,1.3093197345733643
+Motorcycle,sad,SGM raw,3,1.5031565427780151
+Motorcycle,sad,SGM post,3,1.235136866569519
+Motorcycle,sad,SGM raw,5,1.5049501657485962
+Motorcycle,sad,SGM post,5,1.2979259490966797
+Motorcycle,sad,SGM raw,7,1.5410435199737549
+Motorcycle,sad,SGM post,7,1.3611805438995361
+Motorcycle,sad,SGM raw,9,1.5959811210632324
+Motorcycle,sad,SGM post,9,1.422278642654419
+Motorcycle,sad,SGM raw,11,1.6343377828598022
+Motorcycle,sad,SGM post,11,1.4972676038742065
+Motorcycle,sad,SGM raw,15,1.7358293533325195
+Motorcycle,sad,SGM post,15,1.6292927265167236
+Motorcycle,ssd,SGM raw,1,1.825864315032959
+Motorcycle,ssd,SGM post,1,1.7326520681381226
+Motorcycle,ssd,SGM raw,3,1.8056228160858154
+Motorcycle,ssd,SGM post,3,1.7689828872680664
+Motorcycle,ssd,SGM raw,5,1.882387399673462
+Motorcycle,ssd,SGM post,5,1.8572075366973877
+Motorcycle,ssd,SGM raw,7,1.9425302743911743
+Motorcycle,ssd,SGM post,7,1.8909331560134888
+Motorcycle,ssd,SGM raw,9,1.9715461730957031
+Motorcycle,ssd,SGM post,9,1.9038218259811401
+Motorcycle,ssd,SGM raw,11,2.0280697345733643
+Motorcycle,ssd,SGM post,11,1.9694892168045044
+Motorcycle,ssd,SGM raw,15,2.1491591930389404
+Motorcycle,ssd,SGM post,15,2.060953140258789
+Motorcycle,census,SGM raw,3,3.3083860874176025
+Motorcycle,census,SGM post,3,1.3850092887878418
+Motorcycle,census,SGM raw,5,2.0561399459838867
+Motorcycle,census,SGM post,5,1.1656064987182617
+Motorcycle,census,SGM raw,7,1.7517489194869995
+Motorcycle,census,SGM post,7,1.1418170928955078
+MotorcycleE,sad,Block,1,10.249110221862793
+MotorcycleE,sad,Block,3,9.64298152923584
+MotorcycleE,sad,Block,5,9.083992958068848
+MotorcycleE,sad,Block,7,8.550253868103027
+MotorcycleE,sad,Block,9,8.135615348815918
+MotorcycleE,sad,Block,11,7.706185340881348
+MotorcycleE,sad,Block,15,7.024664878845215
+MotorcycleE,ssd,Block,1,10.249110221862793
+MotorcycleE,ssd,Block,3,9.337726593017578
+MotorcycleE,ssd,Block,5,8.498486518859863
+MotorcycleE,ssd,Block,7,7.7451605796813965
+MotorcycleE,ssd,Block,9,7.207206726074219
+MotorcycleE,ssd,Block,11,6.6586408615112305
+MotorcycleE,ssd,Block,15,5.825688362121582
+MotorcycleE,census,Block,3,3.14483904838562
+MotorcycleE,census,Block,5,1.9773247241973877
+MotorcycleE,census,Block,7,1.8017234802246094
+MotorcycleE,sad,SGM raw,1,10.312259674072266
+MotorcycleE,sad,SGM post,1,10.34484577178955
+MotorcycleE,sad,SGM raw,3,9.601548194885254
+MotorcycleE,sad,SGM post,3,9.925409317016602
+MotorcycleE,sad,SGM raw,5,8.885400772094727
+MotorcycleE,sad,SGM post,5,9.268180847167969
+MotorcycleE,sad,SGM raw,7,8.28327465057373
+MotorcycleE,sad,SGM post,7,8.631508827209473
+MotorcycleE,sad,SGM raw,9,7.759742736816406
+MotorcycleE,sad,SGM post,9,8.03538703918457
+MotorcycleE,sad,SGM raw,11,7.306972026824951
+MotorcycleE,sad,SGM post,11,7.570737838745117
+MotorcycleE,sad,SGM raw,15,6.557497978210449
+MotorcycleE,sad,SGM post,15,6.8239665031433105
+MotorcycleE,ssd,SGM raw,1,8.487933158874512
+MotorcycleE,ssd,SGM post,1,8.123482704162598
+MotorcycleE,ssd,SGM raw,3,7.185819625854492
+MotorcycleE,ssd,SGM post,3,7.105990409851074
+MotorcycleE,ssd,SGM raw,5,6.282796382904053
+MotorcycleE,ssd,SGM post,5,6.314344882965088
+MotorcycleE,ssd,SGM raw,7,5.696004390716553
+MotorcycleE,ssd,SGM post,7,5.783601760864258
+MotorcycleE,ssd,SGM raw,9,5.2973480224609375
+MotorcycleE,ssd,SGM post,9,5.482562065124512
+MotorcycleE,ssd,SGM raw,11,4.967222690582275
+MotorcycleE,ssd,SGM post,11,4.986783981323242
+MotorcycleE,ssd,SGM raw,15,4.545868873596191
+MotorcycleE,ssd,SGM post,15,4.550764560699463
+MotorcycleE,census,SGM raw,3,3.246241807937622
+MotorcycleE,census,SGM post,3,1.3726813793182373
+MotorcycleE,census,SGM raw,5,2.0346782207489014
+MotorcycleE,census,SGM post,5,1.1582744121551514
+MotorcycleE,census,SGM raw,7,1.7409257888793945
+MotorcycleE,census,SGM post,7,1.124558687210083
+Piano,sad,Block,1,4.7418975830078125
+Piano,sad,Block,3,2.0889031887054443
+Piano,sad,Block,5,1.7087174654006958
+Piano,sad,Block,7,1.5504461526870728
+Piano,sad,Block,9,1.4629071950912476
+Piano,sad,Block,11,1.4155199527740479
+Piano,sad,Block,15,1.3673391342163086
+Piano,ssd,Block,1,4.7418975830078125
+Piano,ssd,Block,3,2.002784490585327
+Piano,ssd,Block,5,1.6485795974731445
+Piano,ssd,Block,7,1.5145505666732788
+Piano,ssd,Block,9,1.4547230005264282
+Piano,ssd,Block,11,1.4224486351013184
+Piano,ssd,Block,15,1.420782446861267
+Piano,census,Block,3,2.5725722312927246
+Piano,census,Block,5,1.6308523416519165
+Piano,census,Block,7,1.3968358039855957
+Piano,sad,SGM raw,1,1.1809688806533813
+Piano,sad,SGM post,1,1.0612138509750366
+Piano,sad,SGM raw,3,1.137038230895996
+Piano,sad,SGM post,3,1.0772066116333008
+Piano,sad,SGM raw,5,1.1704487800598145
+Piano,sad,SGM post,5,1.1103761196136475
+Piano,sad,SGM raw,7,1.2167701721191406
+Piano,sad,SGM post,7,1.150956392288208
+Piano,sad,SGM raw,9,1.245024561882019
+Piano,sad,SGM post,9,1.1758699417114258
+Piano,sad,SGM raw,11,1.2680716514587402
+Piano,sad,SGM post,11,1.2100111246109009
+Piano,sad,SGM raw,15,1.3139456510543823
+Piano,sad,SGM post,15,1.2721039056777954
+Piano,ssd,SGM raw,1,1.5455893278121948
+Piano,ssd,SGM post,1,1.4875589609146118
+Piano,ssd,SGM raw,3,1.5354160070419312
+Piano,ssd,SGM post,3,1.516890048980713
+Piano,ssd,SGM raw,5,1.5448721647262573
+Piano,ssd,SGM post,5,1.5395888090133667
+Piano,ssd,SGM raw,7,1.568165898323059
+Piano,ssd,SGM post,7,1.5608893632888794
+Piano,ssd,SGM raw,9,1.5925754308700562
+Piano,ssd,SGM post,9,1.6037620306015015
+Piano,ssd,SGM raw,11,1.614115834236145
+Piano,ssd,SGM post,11,1.6447607278823853
+Piano,ssd,SGM raw,15,1.6642446517944336
+Piano,ssd,SGM post,15,1.6968718767166138
+Piano,census,SGM raw,3,2.0345818996429443
+Piano,census,SGM post,3,0.8638373613357544
+Piano,census,SGM raw,5,1.1890316009521484
+Piano,census,SGM post,5,0.7347452640533447
+Piano,census,SGM raw,7,0.9978891015052795
+Piano,census,SGM post,7,0.6881752610206604
+PianoL,sad,Block,1,8.052390098571777
+PianoL,sad,Block,3,7.791377067565918
+PianoL,sad,Block,5,7.651773452758789
+PianoL,sad,Block,7,7.532225608825684
+PianoL,sad,Block,9,7.3697967529296875
+PianoL,sad,Block,11,7.238103866577148
+PianoL,sad,Block,15,6.871204853057861
+PianoL,ssd,Block,1,8.052390098571777
+PianoL,ssd,Block,3,7.660109996795654
+PianoL,ssd,Block,5,7.3710618019104
+PianoL,ssd,Block,7,7.159337997436523
+PianoL,ssd,Block,9,6.946805953979492
+PianoL,ssd,Block,11,6.752795696258545
+PianoL,ssd,Block,15,6.3965229988098145
+PianoL,census,Block,3,4.5435919761657715
+PianoL,census,Block,5,3.830549955368042
+PianoL,census,Block,7,3.5718162059783936
+PianoL,sad,SGM raw,1,7.833682060241699
+PianoL,sad,SGM post,1,7.658269882202148
+PianoL,sad,SGM raw,3,7.608121871948242
+PianoL,sad,SGM post,3,7.576519966125488
+PianoL,sad,SGM raw,5,7.415911674499512
+PianoL,sad,SGM post,5,7.442327499389648
+PianoL,sad,SGM raw,7,7.261783123016357
+PianoL,sad,SGM post,7,7.225692272186279
+PianoL,sad,SGM raw,9,7.097323894500732
+PianoL,sad,SGM post,9,7.0755438804626465
+PianoL,sad,SGM raw,11,6.924768924713135
+PianoL,sad,SGM post,11,6.9047675132751465
+PianoL,sad,SGM raw,15,6.636931419372559
+PianoL,sad,SGM post,15,6.67790412902832
+PianoL,ssd,SGM raw,1,6.353901386260986
+PianoL,ssd,SGM post,1,6.2583770751953125
+PianoL,ssd,SGM raw,3,6.071836471557617
+PianoL,ssd,SGM post,3,6.068542957305908
+PianoL,ssd,SGM raw,5,5.8249993324279785
+PianoL,ssd,SGM post,5,5.810441017150879
+PianoL,ssd,SGM raw,7,5.546266078948975
+PianoL,ssd,SGM post,7,5.528233051300049
+PianoL,ssd,SGM raw,9,5.308398723602295
+PianoL,ssd,SGM post,9,5.291233062744141
+PianoL,ssd,SGM raw,11,5.14998722076416
+PianoL,ssd,SGM post,11,5.166614055633545
+PianoL,ssd,SGM raw,15,4.900442600250244
+PianoL,ssd,SGM post,15,4.9317450523376465
+PianoL,census,SGM raw,3,4.340465068817139
+PianoL,census,SGM post,3,2.4894542694091797
+PianoL,census,SGM raw,5,3.7309892177581787
+PianoL,census,SGM post,5,2.4722249507904053
+PianoL,census,SGM raw,7,3.5603597164154053
+PianoL,census,SGM post,7,2.411017656326294
+Pipes,sad,Block,1,6.886551380157471
+Pipes,sad,Block,3,3.6501481533050537
+Pipes,sad,Block,5,3.2563154697418213
+Pipes,sad,Block,7,3.286759614944458
+Pipes,sad,Block,9,3.370213508605957
+Pipes,sad,Block,11,3.474034309387207
+Pipes,sad,Block,15,3.726681709289551
+Pipes,ssd,Block,1,6.886551380157471
+Pipes,ssd,Block,3,3.5568833351135254
+Pipes,ssd,Block,5,3.272179365158081
+Pipes,ssd,Block,7,3.398993492126465
+Pipes,ssd,Block,9,3.578336238861084
+Pipes,ssd,Block,11,3.7576282024383545
+Pipes,ssd,Block,15,4.108489036560059
+Pipes,census,Block,3,3.963956356048584
+Pipes,census,Block,5,3.1443064212799072
+Pipes,census,Block,7,3.2613139152526855
+Pipes,sad,SGM raw,1,2.7253541946411133
+Pipes,sad,SGM post,1,2.0878729820251465
+Pipes,sad,SGM raw,3,2.558720111846924
+Pipes,sad,SGM post,3,2.234950065612793
+Pipes,sad,SGM raw,5,2.7779219150543213
+Pipes,sad,SGM post,5,2.48941707611084
+Pipes,sad,SGM raw,7,2.9579339027404785
+Pipes,sad,SGM post,7,2.6830296516418457
+Pipes,sad,SGM raw,9,3.143162250518799
+Pipes,sad,SGM post,9,2.8981125354766846
+Pipes,sad,SGM raw,11,3.30283784866333
+Pipes,sad,SGM post,11,3.0666444301605225
+Pipes,sad,SGM raw,15,3.6247165203094482
+Pipes,sad,SGM post,15,3.4139647483825684
+Pipes,ssd,SGM raw,1,3.271057367324829
+Pipes,ssd,SGM post,1,3.000885248184204
+Pipes,ssd,SGM raw,3,3.7173194885253906
+Pipes,ssd,SGM post,3,3.5158417224884033
+Pipes,ssd,SGM raw,5,4.042605876922607
+Pipes,ssd,SGM post,5,3.860682964324951
+Pipes,ssd,SGM raw,7,4.1986823081970215
+Pipes,ssd,SGM post,7,3.9968409538269043
+Pipes,ssd,SGM raw,9,4.2962470054626465
+Pipes,ssd,SGM post,9,4.0862836837768555
+Pipes,ssd,SGM raw,11,4.409197807312012
+Pipes,ssd,SGM post,11,4.176479339599609
+Pipes,ssd,SGM raw,15,4.6059064865112305
+Pipes,ssd,SGM post,15,4.414936065673828
+Pipes,census,SGM raw,3,4.142938137054443
+Pipes,census,SGM post,3,2.0315892696380615
+Pipes,census,SGM raw,5,2.8592910766601562
+Pipes,census,SGM post,5,1.8063440322875977
+Pipes,census,SGM raw,7,2.6673009395599365
+Pipes,census,SGM post,7,1.8626395463943481
+Playroom,sad,Block,1,8.105975151062012
+Playroom,sad,Block,3,5.331986904144287
+Playroom,sad,Block,5,4.248894691467285
+Playroom,sad,Block,7,3.616811990737915
+Playroom,sad,Block,9,3.2988624572753906
+Playroom,sad,Block,11,3.0436501502990723
+Playroom,sad,Block,15,2.761829376220703
+Playroom,ssd,Block,1,8.105975151062012
+Playroom,ssd,Block,3,4.9985151290893555
+Playroom,ssd,Block,5,3.892350912094116
+Playroom,ssd,Block,7,3.317344903945923
+Playroom,ssd,Block,9,3.0304272174835205
+Playroom,ssd,Block,11,2.8469419479370117
+Playroom,ssd,Block,15,2.6318562030792236
+Playroom,census,Block,3,4.08102560043335
+Playroom,census,Block,5,2.87424373626709
+Playroom,census,Block,7,2.5047035217285156
+Playroom,sad,SGM raw,1,3.8076679706573486
+Playroom,sad,SGM post,1,2.9091298580169678
+Playroom,sad,SGM raw,3,2.4068360328674316
+Playroom,sad,SGM post,3,2.1634280681610107
+Playroom,sad,SGM raw,5,2.199065685272217
+Playroom,sad,SGM post,5,2.010984182357788
+Playroom,sad,SGM raw,7,2.142911195755005
+Playroom,sad,SGM post,7,1.979576826095581
+Playroom,sad,SGM raw,9,2.1151604652404785
+Playroom,sad,SGM post,9,1.9733285903930664
+Playroom,sad,SGM raw,11,2.1190805435180664
+Playroom,sad,SGM post,11,1.9662587642669678
+Playroom,sad,SGM raw,15,2.162653923034668
+Playroom,sad,SGM post,15,2.039736032485962
+Playroom,ssd,SGM raw,1,1.6816426515579224
+Playroom,ssd,SGM post,1,1.2968500852584839
+Playroom,ssd,SGM raw,3,1.6519737243652344
+Playroom,ssd,SGM post,3,1.394086480140686
+Playroom,ssd,SGM raw,5,1.798492431640625
+Playroom,ssd,SGM post,5,1.6025968790054321
+Playroom,ssd,SGM raw,7,1.9362832307815552
+Playroom,ssd,SGM post,7,1.7364805936813354
+Playroom,ssd,SGM raw,9,2.040120840072632
+Playroom,ssd,SGM post,9,1.8456220626831055
+Playroom,ssd,SGM raw,11,2.1471431255340576
+Playroom,ssd,SGM post,11,1.9513908624649048
+Playroom,ssd,SGM raw,15,2.3153891563415527
+Playroom,ssd,SGM post,15,2.179471492767334
+Playroom,census,SGM raw,3,3.7673654556274414
+Playroom,census,SGM post,3,1.7570704221725464
+Playroom,census,SGM raw,5,2.395336151123047
+Playroom,census,SGM post,5,1.3163228034973145
+Playroom,census,SGM raw,7,1.9851782321929932
+Playroom,census,SGM post,7,1.213271141052246
+Playtable,sad,Block,1,6.544252395629883
+Playtable,sad,Block,3,3.295842409133911
+Playtable,sad,Block,5,2.6930813789367676
+Playtable,sad,Block,7,2.45072340965271
+Playtable,sad,Block,9,2.343440294265747
+Playtable,sad,Block,11,2.3346774578094482
+Playtable,sad,Block,15,2.4961678981781006
+Playtable,ssd,Block,1,6.544252395629883
+Playtable,ssd,Block,3,3.2148115634918213
+Playtable,ssd,Block,5,2.6605372428894043
+Playtable,ssd,Block,7,2.477771759033203
+Playtable,ssd,Block,9,2.436249256134033
+Playtable,ssd,Block,11,2.480097532272339
+Playtable,ssd,Block,15,2.7251720428466797
+Playtable,census,Block,3,4.673160552978516
+Playtable,census,Block,5,3.1606900691986084
+Playtable,census,Block,7,2.8178019523620605
+Playtable,sad,SGM raw,1,1.4838850498199463
+Playtable,sad,SGM post,1,1.0083259344100952
+Playtable,sad,SGM raw,3,1.297108769416809
+Playtable,sad,SGM post,3,1.1113675832748413
+Playtable,sad,SGM raw,5,1.3667439222335815
+Playtable,sad,SGM post,5,1.19143807888031
+Playtable,sad,SGM raw,7,1.4494645595550537
+Playtable,sad,SGM post,7,1.2806318998336792
+Playtable,sad,SGM raw,9,1.5370280742645264
+Playtable,sad,SGM post,9,1.3686047792434692
+Playtable,sad,SGM raw,11,1.6330381631851196
+Playtable,sad,SGM post,11,1.4639360904693604
+Playtable,sad,SGM raw,15,1.8482762575149536
+Playtable,sad,SGM post,15,1.6985070705413818
+Playtable,ssd,SGM raw,1,2.6337087154388428
+Playtable,ssd,SGM post,1,2.319141387939453
+Playtable,ssd,SGM raw,3,2.4566001892089844
+Playtable,ssd,SGM post,3,2.3012824058532715
+Playtable,ssd,SGM raw,5,2.3495447635650635
+Playtable,ssd,SGM post,5,2.2409961223602295
+Playtable,ssd,SGM raw,7,2.313520669937134
+Playtable,ssd,SGM post,7,2.1840360164642334
+Playtable,ssd,SGM raw,9,2.3258719444274902
+Playtable,ssd,SGM post,9,2.1829936504364014
+Playtable,ssd,SGM raw,11,2.3486576080322266
+Playtable,ssd,SGM post,11,2.1834805011749268
+Playtable,ssd,SGM raw,15,2.3950133323669434
+Playtable,ssd,SGM post,15,2.2190968990325928
+Playtable,census,SGM raw,3,4.160004615783691
+Playtable,census,SGM post,3,2.2365612983703613
+Playtable,census,SGM raw,5,2.862274408340454
+Playtable,census,SGM post,5,1.6658397912979126
+Playtable,census,SGM raw,7,2.3602168560028076
+Playtable,census,SGM post,7,1.6011475324630737

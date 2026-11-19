@@ -20,6 +20,7 @@ disparity_algorithms/
     └── block_matching/
         ├── src/                       <- code
         └── data/                      <- generated plots, disparity images, CSV
+            └── adaptive/              <- outputs of the adaptive block size run
 ```
 
 ## Setup
@@ -87,6 +88,58 @@ Notes:
 - **Borders:** a pixel gets a block estimate only if its whole window lies inside both
   images. Pixels without one are NaN and drawn black.
 
+## Adaptive block size
+
+A fixed block size is a compromise: small blocks keep depth edges sharp but are
+ambiguous in flat regions; large blocks are reliable in flat regions but blur edges.
+Adaptive matching lets **each pixel choose its own block size**. Neither strategy
+uses the ground truth; it is only used for scoring.
+
+For every block size, block matching gives a winner disparity and a confidence, the
+**peak ratio** `(second-best cost) / (best cost)`. The second-best ignores the winner
+and its two neighbouring disparities. A ratio near 1 means ambiguous, a large ratio
+means one distinct match.
+
+| Strategy | Rule |
+|---|---|
+| `confidence` | From the smallest to the largest block, take the first size whose peak ratio is at least `--tau` (default 1.2). If none qualifies, use the most confident size (ties go to the larger block). |
+| `texture` | Compute local texture (std of the left image in a 9×9 window), rank pixels, and split them into equal-sized classes: most textured pixels get the smallest block, flattest the largest. No threshold needed. |
+
+Run it (same data, scaling and evaluation mask as the main experiment, so numbers are
+directly comparable):
+
+```bash
+python 1_algo/block_matching/src/run_adaptive.py
+python 1_algo/block_matching/src/run_adaptive.py --metric NCC --tau 1.5 --block-sizes 3 5 9 15 21
+```
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `--tau` | 1.2 | Peak-ratio threshold for the `confidence` strategy |
+| `--taus` | 1.05 … 5.0 | Thresholds for the tau sweep plot |
+| `--texture-win` | 9 | Window for the texture measure |
+| `--metric` | SAD | Metric (SAD, SSD, NCC) used in comparison sheets and the tau sweep |
+| others | | `--data-root`, `--out-dir`, `--num-folders`, `--folders`, `--scale`, `--max-disp`, `--block-sizes` as before |
+
+Outputs are saved to `block_matching/data/adaptive/`:
+
+| Output | Content |
+|---|---|
+| `comparison_<scene>.png` | Left image, ground truth, fixed smallest/largest block, and for each strategy: disparity map, error map, chosen-size map; plus size histogram and texture map |
+| `adaptive_vs_fixed_summary.png` | Mean MAE per metric: every fixed size vs both adaptive strategies |
+| `adaptive_vs_fixed_per_scene.png` | The same for the display metric, per scene |
+| `adaptive_tau_sweep.png` / `.csv` | MAE of `confidence` vs `--tau`, fixed sizes as reference lines |
+| `adaptive_results.csv` | Every number: scene, approach (`fixed`, `adaptive_confidence`, `adaptive_texture`), block_size, metric, mae |
+| `disparity_maps/<scene>/` | Adaptive disparity maps and `*_sizes.png` maps of the chosen block size |
+
+Notes:
+
+- MAD is SAD divided by a constant, so it makes identical choices; its rows are copied from SAD.
+- `adaptive_block_matching.py` needs one cost volume of size `height × width × max_disp`
+  (float64) at a time. At `--scale 1.0` this is a few hundred MB.
+- Adaptive selection is **not guaranteed** to beat the best fixed size. Compare against the
+  fixed rows in `adaptive_results.csv` and tune `--tau` and `--block-sizes` for your data.
+
 ## Ground truth and evaluation
 
 - The PFM is read, multiplied by the |scale| in its header, resized to the image size
@@ -104,7 +157,10 @@ Notes:
 |---|---|
 | `data_loader.py` | Reads images, PFM ground truth, calibration; resizes and scales |
 | `pixel_matching.py` | Pixel-based SAD / SSD / MAD / NCC |
-| `block_matching.py` | Block-based SAD / SSD / MAD / NCC for any odd block size |
+| `block_matching.py` | Block-based SAD / SSD / MAD / NCC for any odd block size (`cost_volume` is reused by the adaptive code) |
+| `adaptive_block_matching.py` | Per-pixel adaptive block size: confidence- and texture-based selection |
+| `adaptive_visualization.py` | Plots for the adaptive experiment |
+| `run_adaptive.py` | Runs and evaluates the adaptive experiment |
 | `evaluation.py` | Common evaluation mask and MAE |
 | `visualization.py` | Disparity images and all plots |
 | `run_experiments.py` | Runs everything and writes the outputs |

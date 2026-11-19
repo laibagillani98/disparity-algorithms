@@ -47,8 +47,14 @@ def _box_sum(img, k):
                          borderType=cv2.BORDER_REFLECT101)
 
 
-def block_matching(left, right, max_disp=64, block_size=9, metric="SAD"):
-    """Return a float32 disparity map with NaN where no estimate is possible."""
+def cost_volume(left, right, max_disp=64, block_size=9, metric="SAD"):
+    """Aggregated matching cost for every pixel and disparity.
+
+    Returns a float64 array (h, w, D), D = min(max_disp, w); lower = better.
+    Positions where the full window is not inside both images are +inf.
+    For NCC the cost is 1 - NCC (range 0..2), which ranks candidates exactly
+    like -NCC but is non-negative, so cost ratios are meaningful.
+    """
     metric = metric.upper()
     if metric not in METRICS:
         raise ValueError(f"Unknown metric: {metric}")
@@ -61,16 +67,15 @@ def block_matching(left, right, max_disp=64, block_size=9, metric="SAD"):
     k = block_size
     rad = k // 2
     n = float(k * k)
+    D = min(max_disp, w)
 
     if metric == "NCC":                      # statistics that do not depend on d
         sl, sl2 = _box_sum(l, k), _box_sum(l * l, k)
         sr, sr2 = _box_sum(r, k), _box_sum(r * r, k)
         var_l = sl2 - sl * sl / n
 
-    best = np.full((h, w), np.inf)
-    disp = np.full((h, w), np.nan, dtype=np.float32)
-
-    for d in range(min(max_disp, w)):
+    vol = np.full((h, w, D), np.inf)
+    for d in range(D):
         a = l[:, d:]
         b = r[:, : w - d]
 
@@ -89,15 +94,20 @@ def block_matching(left, right, max_disp=64, block_size=9, metric="SAD"):
             cov = _box_sum(prod, k) - sl * sr_d / n
             var_r = sr2_d - sr_d * sr_d / n
             ncc = cov / np.sqrt(np.maximum(var_l, 0) * np.maximum(var_r, 0) + 1e-6)
-            agg = -ncc
+            agg = 1.0 - ncc
 
         # invalidate positions whose full window is not inside both images
         agg[:, : d + rad] = np.inf
         agg[:, w - rad:] = np.inf
         agg[:rad, :] = np.inf
         agg[h - rad:, :] = np.inf
+        vol[:, :, d] = agg
+    return vol
 
-        better = agg < best
-        best[better] = agg[better]
-        disp[better] = d
+
+def block_matching(left, right, max_disp=64, block_size=9, metric="SAD"):
+    """Return a float32 disparity map with NaN where no estimate is possible."""
+    vol = cost_volume(left, right, max_disp, block_size, metric)
+    disp = np.argmin(vol, axis=2).astype(np.float32)   # first minimum wins ties
+    disp[~np.isfinite(vol.min(axis=2))] = np.nan
     return disp
